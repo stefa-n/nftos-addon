@@ -1,0 +1,19 @@
+{
+    "name": "NFTos Chrome Extension",
+    "description": "Prevents other people from stealing your NFTs.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest",
+        "https://opensea.io/*",
+        "webRequestBlocking"
+    ],
+    "icons": {
+        "16": "./icon.png",
+        "48": "./icon.png",
+        "128": "./icon.png" 
+    }
+  }
